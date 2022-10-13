@@ -1,0 +1,130 @@
+header{
+    background-color: #2c3e50;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+ul{
+
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* COMMON */
+
+.ms_elements{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2rem 0;
+    color: white;
+}
+
+.ms_title{
+    color: white;
+    font-weight: bold;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.ms_stars_line{
+    content: "";
+    background-color: white;
+    height: 3px;
+    width: 20%;
+}
+
+/* MAIN */
+
+.ms_start_background{
+    background-color: #1abc9c;
+}
+
+.ms_container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.ms_avatar_image{
+    height: 300px;
+    margin: 2rem 0;
+}
+
+.ms_stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.ms_star{
+    padding: 0 1rem;
+    font-size: 2rem;
+}
+
+.ms_stars_black{
+    background-color: black;
+}
+
+.ms_work{
+    text-align: center;
+}
+
+main section{
+    background-color: white;
+}
+
+.ms_black{
+    color: #333333;
+    text-align: center;
+}
+
+.ms_smaller_container{
+    width: 50%;
+}
+
+.ms_input_decorations{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/* FOOTER */
+
+.ms_info_background{
+    background-color: #3a546d;
+}
+
+.ms_copyright_background{
+    background-color: #2c3e50;
+}
+
+.ms_socials{
+    padding: 0;
+}
+
+.ms_socials li{
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.ms_circle{
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+}
